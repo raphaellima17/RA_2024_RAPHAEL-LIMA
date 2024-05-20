@@ -1,0 +1,44 @@
+# RAPHAEL LIMA - 1: 
+# Integrante - 2: 
+# Integrante - 3: 
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# =========== INÍCIO da área onde as funções deverão estar desenvolvidas para ENTREGA
+
+# Função para resolver inequação de 1º grau (ax + b > c)
+def resolver_inequacao_1_grau(a, b, c):
+    #desenvolva o cálculo necessário
+
+
+
+# Função para resolver inequação de 2º grau (ax^2 + bx + c > d)
+def resolver_inequacao_2_grau(a, b, c, d):
+   delta= b**2 -4 * a * (c-d)
+    x=(-b+-delta**0.5)/(2*a)
+return (x)
+
+# Função polinomial de 1º grau
+def polinomio_1_grau(a, b, x):
+  y = a*x + b
+    return(y)
+
+
+
+# Função polinomial de 2º grau
+def polinomio_2_grau(a, b, c, x):
+y = (a*x)**2 +b*x + c
+return(y)
+
+
+# Função exponencial
+def funcao_exponencial(a, b, x):
+    y= a*(**0.5(b*x))
+    return (y)
+
+
+
+# Função logarítmica
+def funcao_logaritmica(a, b, x):
+    y=(a**x)/10
