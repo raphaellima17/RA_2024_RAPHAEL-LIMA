@@ -37,6 +37,19 @@ def funcao_exponencial(a, b, x):
     y= a*(**0.5(b*x))
     return (y)
 
+# Funções trigonométricas
+def funcao_seno(x):
+   retutn np.sin(x)
+
+
+
+def funcao_cosseno(x):
+    return np.cos(x)
+
+
+
+def funcao_tangente(x):
+    return np.tan(x)
 
 
 # Função logarítmica
